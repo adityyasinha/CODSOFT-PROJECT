@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class Project_1{
+public class P1_Number_Game{
      static Scanner scanner = new Scanner(System.in);
     static Random random = new Random();
 
@@ -155,6 +155,7 @@ showHighScores();
         System.out.println("Hard   : " + (hardHighScore == Integer.MAX_VALUE ? "N/A" : hardHighScore + " attempts"));
     }
 }
+
 
 
 
